@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: rgb(242, 240, 240);
+}
+header nav {
+    display: flex;
+    gap: 20px
+}
+header h1 {
+    color: purple;
+}
+header a{
+    text-decoration: none;
+    color: purple;
+}
+.container {
+    background-color: purple;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(242, 240, 240);
+    padding: 20px;
+}
+.form h1{
+ font-size: 20px;
+ color: purple;
+}
+.form label {
+    color: purple;
+}
+.form input {
+    border: 1px purple solid;
+    border-radius: 10px;
+    height: 20px;
+    width: 253px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.form textarea{
+    border-radius: 10px;
+    border: 1px purple solid;
+
+}
+.form button{
+    width: 261px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    /* border: none; */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(242, 240, 240);
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
